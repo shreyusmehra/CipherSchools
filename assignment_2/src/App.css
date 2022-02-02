@@ -1,0 +1,99 @@
+* {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #f0f8ff;
+}
+
+.header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.create-task-container {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+#task-input-field {
+  margin: 0 auto;
+  text-align: center;
+  padding: 12px 20px;
+  width: 15%;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: large;
+  transition: width 0.5s ease-in-out;
+  font-weight: normal;
+  background-color: #fff;
+}
+#task-input-field:focus {
+  border: 3px solid black;
+  width: 30%;
+  background-color: #fff;
+}
+
+#submit-btn {
+  margin: 10px;
+  border: 2px solid black;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: #519ac5;
+  color: rgb(60, 112, 160);
+  transition: 0.5s;
+  background-color: #fff;
+}
+
+#submit-btn:hover {
+  background-color: #519ac5;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.complete-btn {
+  background-color: white;
+  color: #4caf50;
+  border: 2px solid #4caf50;
+  transition-duration: 0.5s;
+}
+.complete-btn:hover {
+  background-color: #4caf50;
+  color: white;
+}
+.trash-btn {
+  background-color: white;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  transition-duration: 0.5s;
+}
+.trash-btn:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.todo {
+  border-radius: 5px;
+  border: 2px solid black;
+  width: 30%;
+  margin: 0 auto;
+  padding: 5px 50px;
+  background-color: #fff;
+}
+.filter-todo {
+  background-color: #fff;
+  font-weight: bold;
+}
+.todo-item {
+  background-color: #fff;
+}
